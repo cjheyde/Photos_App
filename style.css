@@ -1,0 +1,9 @@
+.login-btn {
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: linear-gradient(180deg, #60B6BF 0%, rgba(150, 238, 222, 0.00) 100%);
+}
+
+.simple-text {
+    font-size: smaller;
+}
