@@ -4,25 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Main</title>
   </head>
   <body>
-    <div class="navSyb">
-      <a><i class="fa fa-bars"></i></a>
-    </div>
-    <div class="menu">
-      <ul>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  
+    <nav>
+        <div class="littleMenu">
+          <i class="fa fa-bars menu" aria-hidden="true"></i>
+        </div>
+        <ul>
+          <li><a href="contact.html">Contact1</a></li>
+          <li><a href="contact.html">Contact2</a></li>
+          <li><a href="contact.html">Contact3</a></li>
+        </ul>
+      </div>
+    </nav>
     <h1 class="pageTitle">Main</h1>
+    <form>
       <input class="optBtn" type="submit" value="View Photos" /><br/>
       <input class="optBtn" type="submit" value="Upload Photos" /><br/>
       <input class="optBtn" type="submit" value="Favorite Photos" /><br/>
       <input class="mainBtn" type="button" value="Logout" />
     </form>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" ></script>
+    <script src="script.js"></script>
   </body>
 </html>
