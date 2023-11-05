@@ -3,26 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
     <title>Main</title>
   </head>
   <body>
-    <!-- TODO: create page-->
-    <nav>
-        <ul>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="viewPhotos.html">View Photos</a></li>
-          <li><a href="uploadPhotos.html">Upload Photos</a></li>
-          <li><a href="favoritePhotos.html">Favorite Photos</a></li>
-          <li><a href="downloadPhotos.html">Download Photos</a></li>
-        </ul>
-      </nav>
-    <h1>Main</h1>
-    <form action="/action_page.php">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
-        <input type="submit" value="Submit">
-      </form>
+    <div class="navSyb">
+      <a><i class="fa fa-bars"></i></a>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  
+    <h1 class="pageTitle">Main</h1>
+      <input class="optBtn" type="submit" value="View Photos" /><br/>
+      <input class="optBtn" type="submit" value="Upload Photos" /><br/>
+      <input class="optBtn" type="submit" value="Favorite Photos" /><br/>
+      <input class="mainBtn" type="button" value="Logout" />
+    </form>
   </body>
 </html>
