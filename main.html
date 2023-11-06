@@ -8,25 +8,34 @@
     <title>Main</title>
   </head>
   <body>
-    <nav>
-        <div class="littleMenu">
-          <i class="fa fa-bars menu" aria-hidden="true"></i>
+    <header>
+      <nav>
+          <div class="littleMenu">
+            <i class="fa fa-bars menu" aria-hidden="true"></i>
+          </div>
+          <ul>
+            <li><a href="contact.html">Contact1</a></li>
+            <li><a href="contact.html">Contact2</a></li>
+            <li><a href="contact.html">Contact3</a></li>
+          </ul>
         </div>
-        <ul>
-          <li><a href="contact.html">Contact1</a></li>
-          <li><a href="contact.html">Contact2</a></li>
-          <li><a href="contact.html">Contact3</a></li>
-        </ul>
-      </div>
-    </nav>
-    <h1 class="pageTitle">Main</h1>
-    <form>
-      <input class="optBtn" type="submit" value="View Photos" /><br/>
-      <input class="optBtn" type="submit" value="Upload Photos" /><br/>
-      <input class="optBtn" type="submit" value="Favorite Photos" /><br/>
-      <input class="mainBtn" type="button" value="Logout" />
-    </form>
-    <script src="https://code.jquery.com/jquery-3.7.1.js" ></script>
-    <script src="script.js"></script>
+      </nav>
+      <h1 class="pageTitle">Main</h1>
+    </header>
+
+    <main>
+      <form>
+        <input class="optBtn" type="submit" value="View Photos" onclick="viewPhotos.html"/><br/>
+        <input class="optBtn" type="submit" value="Upload Photos" /><br/>
+        <input class="optBtn" type="submit" value="Favorite Photos" /><br/>
+        <input class="mainBtn" type="submit" value="Logout" />
+      </form>
+      <script src="https://code.jquery.com/jquery-3.7.1.js" ></script>
+      <script src="script.js"></script>
+    </main>
+
+    <footer>
+      <p>by cjheyde 2023</p>
+    </footer>
   </body>
 </html>
