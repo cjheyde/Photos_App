@@ -125,6 +125,12 @@ ul li a {
   display: none;
 }
 
+footer {
+  font-size: 8px;
+  text-align: right;
+  margin-right: 15px;
+}
+
 @media (max-width: 768px) {
   .littleMenu {
     display: block;
