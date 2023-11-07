@@ -1,10 +1,10 @@
 :root{
-  --yellow-light: #fff5e6;
-  --graphite: #504e4e;
   --blue-acqua: #60b6bf;
+  --graphite: #504e4e;
   --gray-medium: #969393;
-  --pink-light: #ffc4bf;
   --pink: #ff8580;
+  --pink-light: #ffc4bf;
+  --yellow-light: #fff5e6;
 }
 
 body {
@@ -64,6 +64,10 @@ main {
 .pageTitle {
   font-weight: 300;
   text-align: center;
+}
+
+.pageTitle:hover {
+  background-color: var(--blue-acqua);
 }
 
 form {
