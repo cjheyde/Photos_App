@@ -10,3 +10,11 @@ JavaScript
 Figma
 VsCode
 
+
+#### VsCode Extensions, CDN Libraries and Others
+Auto Rename Tag
+Code Runner
+Conventional Commits
+Color Highlight
+CSS Alphabetize
+
